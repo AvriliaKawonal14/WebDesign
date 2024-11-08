@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../jenskitchen"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "kwnl_code"
+	}
+}

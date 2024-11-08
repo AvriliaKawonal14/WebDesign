@@ -1,0 +1,223 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    display: grid;
+    grid-template-areas: 
+    "side header"
+    "side chicken";
+}
+.navbar {
+    padding-bottom: 10px;
+    padding-right: 80px;
+    padding-top: 10px;
+    width: 1100px;
+    grid-area: header;
+    background-color: antiquewhite;
+}
+
+.sidebar {
+    grid-area: side;
+    text-align: center;
+    background-color: antiquewhite;
+    background-size: cover;
+    background-attachment: fixed;
+    letter-spacing: 10px;
+}
+.sidebar-menu1{
+    width: 300px;
+    color: black;
+    font-size: 80px;
+    margin-bottom: 50px;
+}
+.sidebar-menu2{
+    width: 300px;
+    background-color: brown;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.sidebar-menu2:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.sidebar-menu3{
+    color: white;
+    background-color: grey;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.sidebar-menu3:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.sidebar-menu4{
+    color: white;
+    background-color: yellowgreen;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.sidebar-menu4:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.sidebar-menu5{
+    color: white;
+    background-color: goldenrod;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.sidebar-menu5:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.sidebar-menu6{
+    color: white;
+    background-color: palevioletred;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.sidebar-menu6:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.sidebar-menu7{
+    color: white;
+    background-color: plum;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.sidebar-menu7:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.allchicken{
+    background-color: white;
+    grid-area: chicken;
+    display:  grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    grid-template-areas:
+    "C1 C2 C3 A" 
+    "C4 C5 C6 A"
+}
+
+.C1 {
+    margin-left: 15px;
+    margin-top: 30px;
+    grid-area: C1;
+    width: 250px;
+    height: 300px; 
+    padding-top: 50px;
+    padding-left: 5px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+.C1,h2, h3{
+    text-align: center;
+}
+
+.C2 {
+    margin-left: 10px;
+    margin-top: 30px;
+    grid-area: C2;
+    width: 250px;
+    height: 300px;
+    padding-top: 50px;
+    padding-left: 5px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+.C2,h2, h3{
+    text-align: center;
+}
+
+.C3 {
+    margin-left: 10px;
+    margin-top: 30px;
+    grid-area: C3;
+    width: 250px;
+    height: 300px;
+    padding-top: 50px;
+    padding-left: 5px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+.C3,h2, h3{
+    text-align: center;
+}
+
+.C4 {
+    margin-top: -250px;
+    margin-left: 15px;
+    grid-area: C4;
+    width: 250px;
+    height: 300px;
+    padding-top: 50px;
+    padding-left: 5px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+.C4,h2, h3{
+    text-align: center;
+}
+
+.C5 {
+    margin-top: -250px;
+    margin-left: 10px;
+    grid-area: C5;
+    width: 250px;
+    height: 300px;
+    padding-top: 50px;
+    padding-left: 5px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+.C5,h2, h3{
+    text-align: center;
+}
+
+.C6 {
+    margin-top: -250px;
+    margin-left: 10px;
+    grid-area: C6;
+    width: 250px;
+    height: 300px;
+    padding-top: 50px;
+    padding-left: 5px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+.C6,h2, h3{
+    text-align: center;
+}
+
+.A{
+    margin-right: 100px;
+    margin-top: 15px;
+    width: 300px;
+    border-radius: 10px;
+}
+.check{
+    color: white;
+    background-color: blue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    border-radius: 10px;
+}
+.check:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
